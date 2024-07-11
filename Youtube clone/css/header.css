@@ -1,8 +1,9 @@
 header {
     display: flex;
     padding: 0 24px 0 15px;
-    height: 50px;
+    height: 60px;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,14 +25,16 @@ header img {
     padding: 8px;
     border-radius: 50%;
     transition: background-color 0.1s;
+    width: 40px;
+    height: 40px;
 }
 .youtubelogo {
     display: flex;
     padding-left: 10px;
 }
 .youtubelogo img {
-    width: 90px;
-    height: 20px;
+    width: 100px;
+    height: 24px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -94,10 +97,11 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 150px;
 }
 .sino, .publicar {
-    width: 16px;
+    width: 36px;
+    height: 36px;
     cursor: pointer;
     padding: 6px 10px;
     border-radius: 50%;
@@ -145,4 +149,9 @@ header img {
 .divpublicar:hover .dica,
 .divnotificar:hover .dica{
     opacity: 1;
+}
+
+.divnotificar, .divpublicar {
+    display: flex;
+    align-items: center;
 }
